@@ -14,16 +14,12 @@ Permite adicionar e remover tarefas dinamicamente, renderizando o conteúdo no s
 ---
 
 ## 📂 Estrutura do projeto
-/projeto-lista
-│
-├── /modulos        # módulos e classes auxiliares
-├── /public         # arquivos estáticos (CSS, JS, imagens)
-├── /views          # templates EJS/HTML
-│   └── index.ejs   # página principal
-│
-├── app.js          # configuração principal do servidor
-├── package.json    # dependências e scripts
-└── README.md       # documentação
+- **modulos** → módulos e classes auxiliares  
+- **public** → arquivos estáticos (CSS, JS, imagens)  
+- **views** → templates EJS/HTML  
+- **index.js** → configuração principal do servidor  
+- **package.json** → dependências e scripts  
+- **README.md** → documentação  
 
 ---
 
@@ -37,13 +33,13 @@ app.set('views', path.join(__dirname, '/views'));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
-📌 Funcionalidades
+```
+## 📌 Funcionalidades
 Adicionar tarefas
 Listar tarefas
 Deletar tarefas
 
-▶️ Como rodar o projeto
+## ▶️ Como rodar o projeto
 Clone este repositório:
 
 bash
